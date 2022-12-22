@@ -1,0 +1,63 @@
+C:\xampp\htdocs\chibitest>php recursion.php
+array(6) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(9)
+  [3]=>
+  int(8)
+  [4]=>
+  string(12) "This is text"
+  [5]=>
+  int(10)
+}
+
+C:\xampp\htdocs\chibitest>php no_recursion.php
+array(6) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(9)
+  [3]=>
+  int(8)
+  [4]=>
+  string(12) "This is text"
+  [5]=>
+  int(10)
+}
+
+C:\xampp\htdocs\chibitest>php json_decode_recursion.php
+array(6) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(9)
+  [3]=>
+  int(8)
+  [4]=>
+  string(12) "This is text"
+  [5]=>
+  int(10)
+}
+
+C:\xampp\htdocs\chibitest>php custom_decode_recursion.php
+array(6) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(9)
+  [3]=>
+  int(8)
+  [4]=>
+  string(12) "This is text"
+  [5]=>
+  int(10)
+}
